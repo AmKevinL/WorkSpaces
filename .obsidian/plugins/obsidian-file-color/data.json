@@ -1,0 +1,111 @@
+{
+  "palette": [
+    {
+      "id": "ktElJI1xit1JnP1lBgoGI",
+      "name": "Red",
+      "value": "#ff0000"
+    },
+    {
+      "id": "PEocz6f07A490d8mStDZJ",
+      "name": "redv1",
+      "value": "#ff5c5c"
+    },
+    {
+      "id": "dN71r9ne2zMsb7gr_Nusx",
+      "name": "redv2",
+      "value": "#6c0404"
+    },
+    {
+      "id": "IMTgs2DhWI055h-LjeMBZ",
+      "name": "bluev1",
+      "value": "#2a30ea"
+    },
+    {
+      "id": "kxvaHeV7sFFHmnJa-NA-G",
+      "name": "pink",
+      "value": "#ba24ff"
+    },
+    {
+      "id": "tpThmrAwP47gAzFOvz6IA",
+      "name": "yellow",
+      "value": "#e36816"
+    },
+    {
+      "id": "gZT7Oh1KlP6cjA0Pnq3dg",
+      "name": "green",
+      "value": "#61f014"
+    },
+    {
+      "id": "fyWI4ms-lCb-RCGoEdA_-",
+      "name": "bluev2",
+      "value": "#1037f9"
+    },
+    {
+      "id": "jFEt3pkRTBwzfHu9tYhxB",
+      "name": "",
+      "value": "#002375"
+    },
+    {
+      "id": "62AEylBVt3H1YFkjyrbYX",
+      "name": "",
+      "value": "#11afbb"
+    },
+    {
+      "id": "iF6MYF77fmtQeZca8FooI",
+      "name": "",
+      "value": "#94f85d"
+    },
+    {
+      "id": "zfRt-b7PdIDwAF4DP85Eu",
+      "name": "",
+      "value": "#ffe042"
+    },
+    {
+      "id": "ej-tCwNtDYXMNKBBR91ak",
+      "name": "",
+      "value": "#e18f33"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Located",
+      "color": "kxvaHeV7sFFHmnJa-NA-G"
+    },
+    {
+      "path": "Translate",
+      "color": "tpThmrAwP47gAzFOvz6IA"
+    },
+    {
+      "path": "Located/Moment",
+      "color": "gZT7Oh1KlP6cjA0Pnq3dg"
+    },
+    {
+      "path": "Located/Notes",
+      "color": "gZT7Oh1KlP6cjA0Pnq3dg"
+    },
+    {
+      "path": "Plugin Obsidian",
+      "color": "tpThmrAwP47gAzFOvz6IA"
+    },
+    {
+      "path": "Hướng dẫn sử dụng",
+      "color": "ktElJI1xit1JnP1lBgoGI"
+    },
+    {
+      "path": "Hướng dẫn sử dụng/How to creat daily note.md",
+      "color": "gZT7Oh1KlP6cjA0Pnq3dg"
+    },
+    {
+      "path": "Untitled.md",
+      "color": "ktElJI1xit1JnP1lBgoGI"
+    },
+    {
+      "path": "Linux-learn",
+      "color": "62AEylBVt3H1YFkjyrbYX"
+    },
+    {
+      "path": "BRAT-log.md",
+      "color": "kxvaHeV7sFFHmnJa-NA-G"
+    }
+  ]
+}

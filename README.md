@@ -1,0 +1,2 @@
+# WorkSpaces
+ add obsidian

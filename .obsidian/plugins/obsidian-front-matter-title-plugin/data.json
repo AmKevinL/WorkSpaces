@@ -1,0 +1,59 @@
+{
+  "templates": [
+    "#heading",
+    "FolderX"
+  ],
+  "rules": {
+    "paths": {
+      "mode": "black",
+      "values": []
+    },
+    "delimiter": {
+      "enabled": true,
+      "value": ""
+    }
+  },
+  "debug": false,
+  "boot": {
+    "delay": 1000
+  },
+  "features": {
+    "alias": {
+      "enabled": true,
+      "strategy": "adjust",
+      "validator": "fa"
+    },
+    "explorer": {
+      "enabled": true
+    },
+    "explorer:sort": {
+      "enabled": true
+    },
+    "tab": {
+      "enabled": true
+    },
+    "header": {
+      "enabled": true
+    },
+    "graph": {
+      "enabled": true
+    },
+    "starred": {
+      "enabled": true
+    },
+    "search": {
+      "enabled": true
+    },
+    "suggest": {
+      "enabled": true
+    }
+  },
+  "processor": {
+    "args": [
+      "",
+      "",
+      ""
+    ],
+    "type": "replace"
+  }
+}

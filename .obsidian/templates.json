@@ -1,0 +1,5 @@
+{
+  "folder": "Templates",
+  "dateFormat": "y",
+  "timeFormat": "{{h:mmp A}}"
+}

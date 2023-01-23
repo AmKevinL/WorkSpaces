@@ -1,0 +1,281 @@
+{
+  "TagSettings": [
+    {
+      "attributes": {
+        "prefix": "{{Date}}",
+        "suffix": null,
+        "background-color": "#008a29",
+        "border": "4",
+        "radius": "5rem"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {
+          "5565a2": "yy-mm-dd"
+        },
+        "opened": false,
+        "itemType": {
+          "5565a2": [
+            "{{Date}}",
+            "Date",
+            null
+          ],
+          "1c2012": [
+            null,
+            null,
+            null
+          ]
+        },
+        "tagIndex": 0
+      },
+      "name_": "mau"
+    },
+    {
+      "attributes": {
+        "text-color": "#f92f2f"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 1
+      },
+      "name_": "`` ``"
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 2
+      }
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 3
+      }
+    },
+    {
+      "attributes": {
+        "text-color": "#9c0202"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 4
+      },
+      "name_": "``"
+    },
+    {
+      "attributes": {
+        "text-color": "#da1010"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 5
+      },
+      "name_": "#>"
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": false,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 6
+      },
+      "name_": "1"
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": false,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 7
+      }
+    },
+    {
+      "attributes": {
+        "text-color": "#db0a0a"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 8
+      }
+    },
+    {
+      "attributes": {
+        "text-color": "#bb0707"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 9
+      }
+    },
+    {
+      "attributes": {
+        "remove-tag-name": "True"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 10
+      },
+      "name_": "TagCl"
+    },
+    {
+      "attributes": {
+        "background-color": "#00246b"
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 11
+      }
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {
+          "98beb1": "#b70b0b"
+        },
+        "opened": false,
+        "itemType": {
+          "98beb1": [
+            "redd",
+            "Color",
+            null
+          ],
+          "3d5bbd": [
+            null,
+            null,
+            null
+          ]
+        },
+        "tagIndex": 12,
+        "shadowTextTemplate": "``tagcl``"
+      }
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 14
+      }
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 14
+      }
+    },
+    {
+      "attributes": {},
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 15
+      }
+    }
+  ],
+  "GlobalTagSetting": {
+    "attributes": {
+      "background-color": "#2b9c38",
+      "border": "2",
+      "radius": "3rem",
+      "prefix": null,
+      "text-color": "#fec320",
+      "text-size": "rem"
+    },
+    "opened": false,
+    "enableList_": {
+      "prefix": true,
+      "suffix": true,
+      "background-color": true,
+      "border": true,
+      "radius": true,
+      "text-color": true,
+      "text-size": true
+    }
+  },
+  "UseTagDetail": true,
+  "StoreTagDetailInYaml": "yaml",
+  "TagDetailData": {
+    "Biên tập viên.md": [
+      {
+        "{{Date}}": "yy-mm-dd"
+      }
+    ]
+  },
+  "MetaFileTagDetails": {
+    "Biên tập viên.md": [
+      "#mau-0-0-0"
+    ],
+    "Templates/Translate-templates/translate-template.md": [
+      "#Dịch_nghĩa-0-2-2",
+      "#Danh_từ-2-3-18",
+      "#Động_từ-6-3-47",
+      "#Tính_từ-10-3-75",
+      "#Ví_dụ-14-3-104"
+    ],
+    "Located/Moment/Date/2023_01_20 Friday 4g38p PM.md": [
+      "0-2-2",
+      "2-3-18",
+      "6-3-47",
+      "10-3-75",
+      "14-3-104"
+    ]
+  }
+}

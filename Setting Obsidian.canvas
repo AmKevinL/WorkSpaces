@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"d9c1d13f93a3f140","x":-834,"y":-163,"width":151,"height":60,"type":"text","text":"Quick switcher"},
+		{"id":"9ff91aefb4e7c9ee","x":-834,"y":-243,"width":146,"height":60,"type":"text","text":"Page preview"},
+		{"id":"25c56cea61b81598","x":-834,"y":-323,"width":146,"height":60,"type":"text","text":"Note composer"},
+		{"id":"373741bc377087f1","x":-834,"y":-403,"width":125,"height":60,"type":"text","text":"Daily notes"},
+		{"id":"f27a6200f65e6643","x":-642,"y":-243,"width":160,"height":60,"type":"text","text":"Xem trước trang"},
+		{"id":"da01e6e4b0b0dc58","x":-642,"y":-398,"width":250,"height":50,"type":"text","text":"Ghi chú hàng ngày"},
+		{"id":"8543f4ef654d8f00","x":-642,"y":-323,"width":216,"height":60,"type":"text","text":"Ghi chú bien soan"},
+		{"id":"fd669116fb69d47a","x":-900,"y":-1040,"width":250,"height":420,"type":"text","text":"## [[Options]]\n[[Editor]]\n[[Files & Links]]\n[[Appearance]]\n[[Hotkeys]]\n[[About]]\n[[Core plugins]]\n[[Backlinks]]\n[[Command palette]]\n[[Daily notes]]\n[[File recovery]]\n[[Note composer]]\n[[Page preview]]\n[[Quick switcher]]\n[[Templates]]"},
+		{"id":"85789626d0648fbd","x":-900,"y":-1120,"width":250,"height":60,"type":"text","text":"Options"},
+		{"id":"005c59964dc1e6a6","x":-834,"y":-83,"width":129,"height":60,"type":"text","text":"Template"},
+		{"id":"7a7d89cb8abb6706","x":-642,"y":-163,"width":216,"height":60,"type":"text","text":"Trình chuyển đổi nhanh"},
+		{"id":"d33f7dab879d2a6b","x":-642,"y":-83,"width":85,"height":60,"type":"text","text":"Mẫu"},
+		{"id":"ca7ccda5603617bf","x":-597,"y":-1040,"width":296,"height":420,"type":"file","file":"Cai dat Obsidian.md"}
+	],
+	"edges":[
+		{"id":"81339a73dad88753","fromNode":"005c59964dc1e6a6","fromSide":"right","toNode":"d33f7dab879d2a6b","toSide":"left"},
+		{"id":"fc9dab325d832577","fromNode":"d9c1d13f93a3f140","fromSide":"right","toNode":"7a7d89cb8abb6706","toSide":"left"},
+		{"id":"67df5ed38efb05ac","fromNode":"9ff91aefb4e7c9ee","fromSide":"right","toNode":"f27a6200f65e6643","toSide":"left"},
+		{"id":"be4990755046b30b","fromNode":"373741bc377087f1","fromSide":"right","toNode":"da01e6e4b0b0dc58","toSide":"left"},
+		{"id":"795fa27f6b673e1e","fromNode":"25c56cea61b81598","fromSide":"right","toNode":"8543f4ef654d8f00","toSide":"left"}
+	]
+}

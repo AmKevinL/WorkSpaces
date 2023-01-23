@@ -1,0 +1,10 @@
+{
+  "accentColor": "#344fbc",
+  "theme": "system",
+  "nativeMenus": true,
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "newsetting",
+    "headings"
+  ]
+}

@@ -91,12 +91,12 @@
       "SubmenuCommands": [
         {
           "id": "editing-toolbar:superscript",
-          "name": "Toggle superscript",
+          "name": "Toggle superscript - đổi chỉ số trên",
           "icon": "superscript-glyph"
         },
         {
           "id": "editing-toolbar:subscript",
-          "name": "Toggle subscript",
+          "name": "Toggle subscript - đổi chỉ số dưới",
           "icon": "subscript-glyph"
         },
         {
@@ -209,10 +209,10 @@
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
-  "cMenuBottomValue": 4.25,
+  "cMenuBottomValue": 4.95,
   "cMenuNumRows": 12,
   "cMenuWidth": 502,
   "cMenuFontColor": "#2DC26B",
   "cMenuBackgroundColor": "#d3f8b6",
-  "autohide": false
+  "autohide": true
 }

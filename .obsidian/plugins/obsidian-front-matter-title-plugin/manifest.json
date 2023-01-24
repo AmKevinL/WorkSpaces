@@ -1,1 +1,10 @@
-{"id":"obsidian-front-matter-title-plugin","name":"Front Matter Title","version":"2.9.0-beta","minAppVersion":"0.16.3","description":"Lets you define a title in frontmatter to be displayed as the filename","author":"Snezhig","authorUrl":"https://github.com/snezhig","isDesktopOnly":false}
+{
+  "id": "obsidian-front-matter-title-plugin",
+  "name": "Front Matter Title- Trước tiêu đề chính",
+  "version": "2.9.1",
+  "minAppVersion": "0.16.3",
+  "description": "Cho phép bạn xác định tiêu đề ở phía trước sẽ được hiển thị dưới dạng tên tệp",
+  "author": "Snezhig",
+  "authorUrl": "https://github.com/snezhig",
+  "isDesktopOnly": false
+}

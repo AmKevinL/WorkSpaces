@@ -1,7 +1,6 @@
 {
   "templates": [
-    "#heading",
-    "FolderX"
+    "#heading"
   ],
   "rules": {
     "paths": {
@@ -20,7 +19,7 @@
   "features": {
     "alias": {
       "enabled": true,
-      "strategy": "adjust",
+      "strategy": "replace",
       "validator": "fa"
     },
     "explorer": {

@@ -26,7 +26,14 @@
     "/": [
       "Located/Notes",
       "Located/Moment/Date",
-      "Located/Moment"
+      "/",
+      "Hướng dẫn sử dụng/Python",
+      "Hướng dẫn sử dụng/MariaDB",
+      "Linux-learn/Hướng dẫn sử dụng Linux",
+      "Located/Moment",
+      "TestTheme",
+      "FolderX",
+      "Hướng dẫn sử dụng"
     ]
   },
   "expandedSpaces": [

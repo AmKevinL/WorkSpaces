@@ -3,53 +3,53 @@
   "menuCommands": [
     {
       "id": "cmenu-plugin:editor:toggle-bold",
-      "name": "cMenu: Toggle bold",
+      "name": "cMenu: Toggle bold-chuyển đổi in đậm ",
       "icon": "bold-glyph"
     },
     {
       "id": "cmenu-plugin:editor:toggle-italics",
-      "name": "cMenu: Toggle italics",
+      "name": "cMenu: Toggle italics-Chuyển đổi in nghiêng.",
       "icon": "italic-glyph"
     },
     {
       "id": "cmenu-plugin:editor:toggle-strikethrough",
-      "name": "cMenu: Toggle strikethrough",
+      "name": "cMenu: Toggle strikethrough-Chuyển gạch ngang",
       "icon": "strikethrough-glyph"
     },
     {
       "id": "cmenu-plugin:underline",
-      "name": "cMenu: Toggle underline",
+      "name": "cMenu: Toggle underline-Chuyển đổi gạch chân",
       "icon": "underline-glyph"
     },
     {
       "id": "cmenu-plugin:superscript",
-      "name": "cMenu: Toggle superscript",
+      "name": "cMenu: Toggle superscript-Chuyển đổi chỉ số trên",
       "icon": "superscript-glyph"
     },
     {
       "id": "cmenu-plugin:subscript",
-      "name": "cMenu: Toggle subscript",
+      "name": "cMenu: Toggle subscript-Chuyển đổi chỉ số dưới",
       "icon": "subscript-glyph"
     },
     {
       "id": "cmenu-plugin:editor:toggle-code",
-      "name": "cMenu: Toggle code",
+      "name": "cMenu: Toggle code-Chuyển đổi mã",
       "icon": "code-glyph"
     },
     {
       "id": "cmenu-plugin:codeblock",
-      "name": "cMenu: Toggle codeblock",
+      "name": "cMenu: Toggle codeblock-Chuyển đổi khối mã",
       "icon": "codeblock-glyph"
     },
     {
       "id": "cmenu-plugin:editor:toggle-blockquote",
-      "name": "cMenu: Toggle blockquote",
+      "name": "cMenu: Toggle blockquote-Bật/tắt trích dẫn khối",
       "icon": "quote-glyph"
     }
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
-  "cMenuVisibility": true,
+  "cMenuVisibility": false,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 9
 }

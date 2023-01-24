@@ -1,6 +1,6 @@
 {
   "folder": "Located/Moment/Date",
-  "autorun": true,
+  "autorun": false,
   "format": "YYYY_MM_DDD dddd hgmmp A",
   "template": ""
 }

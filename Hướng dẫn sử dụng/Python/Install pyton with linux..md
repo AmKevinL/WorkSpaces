@@ -25,8 +25,6 @@ Mở **"Terminal"** và CD vào thư mục mà bạn có được sau khi giải
 Đăng nhập vào với quyền ADMIN:
 
 ```console
-
-
 sudo su
 ```
 
@@ -47,7 +45,6 @@ Lệnh _**"./configure"**_ đã thực hiện xong.
 Thực hiện tiếp lệnh _**"make"**_ để tạo các file.
 
 ```console
-
 make
 ```
 
@@ -62,9 +59,7 @@ OK, tới đây bạn đã cài đặt xong **Python**, bạn cần kiểm tra l
 Thực thi một vài đoạn mã **Python**:
 
 ```text
-
 print ("Hello Python");
-
 1 + 2
 ```
 

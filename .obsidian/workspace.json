@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ffac16c7c9f87c3e",
+        "id": "5d796ded240a2fd9",
         "type": "tabs",
         "children": [
           {
-            "id": "7d371d29283ad351",
+            "id": "289dce8eda0d40ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Translate/Tùy chọn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Translate/Tùy chọn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Translate/Tùy chọn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Translate/Tùy chọn.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -173,17 +173,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7d371d29283ad351",
+  "active": "289dce8eda0d40ad",
   "lastOpenFiles": [
-    "Cai dat Obsidian.md",
-    "Located/Moment/Moment.md",
-    "Linux-learn/Hướng dẫn sử dụng Linux/How to use Linux.md",
-    "Linux-learn/Hướng dẫn sử dụng Linux/Code linux.md",
-    "Hướng dẫn sử dụng/Python/install numpy.md",
-    "BRAT-log.md",
+    "Translate/Prefix.md",
+    "Translate/Suffix.md",
+    "Translate/README.md",
+    "Translate/Options Obsidian.md",
+    "Translate/Cai dat Obsidian.md",
+    "Translate/Biên tập viên.md",
+    "Image/Pasted image 20230124142729.png",
+    "Hướng dẫn sử dụng/Python/Install pyton with linux..md",
     "Setting Obsidian.canvas",
-    "Options.md",
-    "filename^block.md",
-    "Image/Pasted image 20230124142708.png"
+    "Cai dat Obsidian.md"
   ]
 }

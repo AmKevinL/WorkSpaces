@@ -11,29 +11,29 @@ id: blue-topaz-theme
 settings:
   -
     id: transparent-setting-panel
-    title: Translucent Setting Panel
+    title: Bảng cài đặt mờ
     title.zh: 透明窗口
-    description: Make this panel transparent
+    description: Làm cho cửa sổ này trong suốt để dễ dàng thiết lập
     description.zh: 使本窗口透明，便于设置
     type: class-toggle
     default: false
   -
     id: background-settings
-    title: 1. General Settings
+    title: 1. Cài đặt chung
     title.zh: 1. 整体性设置
     type: heading
     level: 1
     collapsed: false
   -
     id: color-settings
-    title: 1.1 Color scheme
+    title: 1.1 Bảng màu
     title.zh: 1.1 整体配色
     type: heading
     level: 2
     collapsed: true
   -
     id: color-scheme-options
-    title: Color Palette (from Topaz Community)
+    title: Bảng màu (from Topaz Community)
     title.zh: 整体配色选择 (由Topaz社区贡献)
     type: class-select
     allowEmpty: false
@@ -80,13 +80,13 @@ settings:
         value: color-scheme-options-simplicity-topaz
   -
     id: disable-auto-hide-header
-    title:  Disable auto hide header
+    title: Vô hiệu hóa tiêu đề tự động ẩn
     title.zh: 禁用自动隐藏头部
     type: class-toggle
     default: false
   -
     id: color-magic
-    title: Color of Rubik's Cube palette
+    title: Màu của bảng khối Rubik
     title.zh: 魔方配色
     description.zh: 当整体配色为【魔方】时生效
     type: heading
@@ -94,9 +94,9 @@ settings:
     collapsed: true
   -
     id: magic-main-color
-    title: main color
+    title: Màu chính
     title.zh: 主题色
-    description.zh: 主题色主要作用于标题，字体，列表等主色调，建议用对比度强，不易疲劳的色系。如果想单独调整个别类目请在2.1中继续细调。
+    description.zh: Màu chủ đề chủ yếu được sử dụng cho tiêu đề, phông chữ, danh sách và các màu chính khác, nên sử dụng hệ thống màu có độ tương phản mạnh và không dễ gây mệt mỏi. Nếu bạn muốn điều chỉnh từng danh mục riêng lẻ, vui lòng tiếp tục tinh chỉnh trong 2.1。
     type: variable-themed-color
     opacity: true
     format: hex
@@ -124,14 +124,14 @@ settings:
     default-dark: '#'
   -
     id: background-settings
-    title: 1.2 Background Images
+    title: 1.2 Hinh nền
     title.zh: 1.2 背景设置
     type: heading
     level: 2
     collapsed: true
   -
     id: background-settings-workplace
-    title: 1.2.1 Workplace Background Image
+    title: 1.2.1 Hình Nền Nơi Làm Việc
     title.zh: 1.2.1 工作页面背景
     type: heading
     level: 3
@@ -278,7 +278,7 @@ settings:
     default: false
   -
     id: background-settings-markdown-page
-    title: 1.2.2 Note Page Background Image
+    title: 1.2.2 Hình nền trang ghi chú
     title.zh: 1.2.2 笔记背景
     type: heading
     level: 3
@@ -437,8 +437,8 @@ settings:
     default: false
   -
     id: notebook-liked-background-settings
-    title: 1.2.2.1 Notebook-liked background options
-    title.zh: 1.2.2.1 类笔记样式背景设置
+    title: 1.2.2.1 Tùy chọn nền giống như máy tính xách tay
+    title.zh: 1.2.2.1 Cài đặt nền kiểu ghi chú lớp học
     type: heading
     level: 4
     collapsed: true
@@ -490,8 +490,8 @@ settings:
     default-dark: '#'
   -
     id: background-settings-command-palette
-    title: 1.2.3 Images of Command Palette
-    title.zh: 1.2.3 命令面板背景
+    title: 1.2.3 Hình ảnh nền của Bảng lệnh
+    title.zh: 1.2.3 Nền bảng lệnh
     type: heading
     level: 3
     collapsed: true
@@ -572,8 +572,8 @@ settings:
     step: 0.05
   -
     id: background-settings-markdown-page
-    title: 1.2.4 File Explorer Background
-    title.zh: 1.2.4 文件栏背景
+    title: 1.2.4 Nền trình khám phá tệp- thanh tập tin
+    title.zh: 1.2.4 Nền thanh tập tin
     type: heading
     level: 3
     collapsed: true
@@ -771,14 +771,14 @@ settings:
     default: false
   -
     id: background-settings
-    title: 2. Detail Settings
+    title: 2. Cài đặt chi tiết
     title.zh: 2. 细节设置
     type: heading
     level: 1
     collapsed: false
   -
     id: color-settings
-    title: 2.1 Color Settings
+    title: 2.1 Cài đặt màu
     title.zh: 2.1 颜色设置
     type: heading
     level: 2
@@ -793,7 +793,7 @@ settings:
     default-dark: '#'
   -
     id: background-color-settings
-    title: 2.1.1 Background Colors
+    title: 2.1.1 Màu nền
     title.zh: 2.1.1 背景颜色设置
     type: heading
     level: 3
@@ -844,8 +844,8 @@ settings:
     default-dark: '#'
   -
     id: accent-color-settings
-    title: 2.1.2 Theme Colors
-    title.zh: 2.1.2 主题色设置
+    title: 2.1.2 Màu chủ đề
+    title.zh: 2.1.2 Cài đặt màu chủ đề
     type: heading
     level: 3
     collapsed: true
@@ -861,7 +861,7 @@ settings:
     default-dark: '#'
   -
     id: highlight-bg-color-folder
-    title: 2.1.3 Highlight Background Color
+    title: 2.1.3 Làm nổi bật màu nền
     title.zh: 2.1.3 高亮背景颜色
     type: heading
     level: 3
@@ -1062,7 +1062,7 @@ settings:
     default: normal
   -
     id: other-color-settings
-    title: 2.1.4 Other Colors
+    title: 2.1.4 màu sắc khác
     title.zh: 2.1.4 其他颜色
     type: heading
     level: 3
@@ -1230,8 +1230,8 @@ settings:
     default-dark: '#'
   -
     id: graph-view-color-settings
-    title: 2.1.5 Graph-view Colors
-    title.zh: 2.1.5 图谱颜色
+    title: 2.1.5 Màu dạng xem đồ thị
+    title.zh: 2.1.5 Màu bản đồ
     type: heading
     level: 3
     collapsed: true
@@ -1345,14 +1345,14 @@ settings:
     default-dark: '#'
   -
     id: font-settings
-    title: 2.2 Typography
+    title: 2.2 kiểu chữ
     title.zh: 2.2 排版
     type: heading
     level: 2
     collapsed: true
   -
     id: font-settings
-    title: 2.2.1 Font Family
+    title: 2.2.1 Họ phông chữ
     title.zh: 2.2.1 字体设置
     type: heading
     level: 3
@@ -1459,7 +1459,7 @@ settings:
     default: "'Lucida Handwriting', 'Segoe UI Emoji'"
   -
     id: font-size-settings
-    title: 2.2.2 Font Size
+    title: 2.2.2 Cỡ chữ
     title.zh: 2.2.2 字体大小
     type: heading
     level: 3
@@ -1532,7 +1532,7 @@ settings:
     default: 1.25em
   -
     id: header-settings
-    title: 2.2.3 Headers
+    title: 2.2.3 Tiêu đề
     title.zh: 2.2.3 文内标题（H1-H6）
     type: heading
     level: 3
@@ -1944,7 +1944,7 @@ settings:
         value: h5-text-align-end
   -
     id: other-typography-settings
-    title: 2.2.4 Other Typography Settings
+    title: 2.2.4 Cài đặt kiểu chữ khác
     title.zh: 2.2.4 其他排版设置
     type: heading
     level: 3
@@ -2026,7 +2026,7 @@ settings:
     default: false
   -
     id: other-typography-settings
-    title: 2.2.5 *.md File in Split Pane
+    title: 2.2.5 *.md Tệp trong ngăn chia
     title.zh: 2.2.5 侧面拆分面板中的md文件
     type: heading
     level: 3
@@ -2051,7 +2051,7 @@ settings:
     default: false
   -
     id: style-change-options
-    title: 2.3 Element Styles
+    title: 2.3 Phong cách yếu tố khác
     title.zh: 2.3 其他元素样式
     type: heading
     level: 2
@@ -2086,7 +2086,7 @@ settings:
     default: false
   -
     id: fancy-hr-folder
-    title: 2.3.1 Dividing Line (Horizontal Ruler, hr, ---)
+    title: 2.3.1 Đường phân chia (Horizontal Ruler, hr, ---)
     title.zh: 2.3.1 分割线（hr，---）
     type: heading
     level: 3
@@ -2287,7 +2287,7 @@ settings:
     default-dark: '#'
   -
     id: list-style-change-options-folder
-    title: 2.3.2 List
+    title: 2.3.2 Danh sách
     title.zh: 2.3.2 列表
     type: heading
     level: 3
@@ -2352,7 +2352,7 @@ settings:
         value: default-list-marker
   -
     id: options-bt-default
-    title: 2.3.2.1.1 Options for 'Blue Topaz Default'
+    title: 2.3.2.1.1 Tùy chọn cho 'Mặc định Topaz xanh'
     type: heading
     level: 5
     collapsed: true
@@ -2373,7 +2373,7 @@ settings:
     default-dark: '#'
   -
     id: options-for-custom
-    title: 2.3.2.1.2 Options for 'Custom'
+    title: 2.3.2.1.2 Tùy chọn cho 'Tùy chỉnh'
     type: heading
     level: 5
     collapsed: true
@@ -2609,7 +2609,7 @@ settings:
         format: px
   -
     id: folder-style-change-options-folder
-    title: 2.3.3 Folder
+    title: 2.3.3 Thư mục
     title.zh: 2.3.3 文件夹
     type: heading
     level: 3
@@ -2757,7 +2757,7 @@ settings:
     default-dark: '#b3b3b3'
   -
     id: blockquote-style-change-options-folder
-    title: 2.3.4 Blockquote
+    title: 2.3.4 Trích dẫn khối
     title.zh: 2.3.4 引用框
     type: heading
     level: 3
@@ -2790,7 +2790,7 @@ settings:
         value: blockquote-style-border-left
   -
     id: export-pdf-style-folder
-    title: 2.3.5 Exported PDF Style
+    title: 2.3.5 Kiểu PDF đã xuất
     title.zh: 2.3.5 导出PDF样式
     type: heading
     level: 3
@@ -2834,7 +2834,7 @@ settings:
     default-dark: '#'
   -
     id: embed-folder
-    title: 2.3.6 Embeds
+    title: 2.3.6 Embeds-Nhúng
     title.zh: 2.3.6 嵌入样式
     type: heading
     level: 3
@@ -2885,7 +2885,7 @@ settings:
     default: false
   -
     id: table-styles
-    title: 2.3.8 Table
+    title: 2.3.8 Table-Bảng
     title.zh: 2.3.8 表格
     type: heading
     level: 3
@@ -2952,14 +2952,14 @@ settings:
         value: table-style-three
   -
     id: codeblock-folder
-    title: 2.3.9 Codebox and Inline Code
+    title: 2.3.9 Hộp mã và mã nội tuyến
     title.zh: 2.3.9 代码框和行内代码
     type: heading
     level: 3
     collapsed: true
   -
     id: code-box-option-folder
-    title: 2.3.9.1 Codebox
+    title: 2.3.9.1 Hộp mã
     title.zh: 2.3.9.1 代码框
     type: heading
     level: 4
@@ -3151,7 +3151,7 @@ settings:
     description.zh: 可以通过按住ctrl键点击链接跳转
   -
     id: cursor-style-folder
-    title: 2.3.12 Cursor
+    title: 2.3.12 Cursor - Con trỏ
     title.zh: 2.3.12 输入光标
     type: heading
     level: 3
@@ -3167,7 +3167,7 @@ settings:
     default-dark: '#'
   -
     id: checkbox-style-folder
-    title: 2.3.13 Checkbox
+    title: 2.3.13 Checkbox-Hộp kiểm
     title.zh: 2.3.13 勾选框
     type: heading
     level: 3
@@ -3218,7 +3218,7 @@ settings:
     default: false
   -
     id: icons-style-folder
-    title: 2.3.15 Images
+    title: 2.3.15 Images - Hình Ảnh
     title.zh: 2.3.15 图片
     type: heading
     level: 3
@@ -3284,7 +3284,7 @@ settings:
     default: false
   -
     id: loading-page-style-folder
-    title: 2.3.16 Loading Page
+    title: 2.3.16 Loading Page-Tải trang
     title.zh: 2.3.16 加载页面
     type: heading
     level: 3
@@ -3453,7 +3453,7 @@ settings:
     default: false
   -
     id: tag-color-settings
-    title: 2.3.17 #Tag
+    title: 2.3.17 Nhãn #Tag
     title.zh: 2.3.17 标签 (#Tag)
     type: heading
     level: 3
@@ -3564,7 +3564,7 @@ settings:
     default: 1px
   -
     id: tag-color-settings
-    title: 2.3.18 Setting, Menu, Option panes
+    title: 2.3.18 Setting, Menu, Option panes-Cài đặt, Menu, Bảng tùy chọn
     title.zh: 2.3.18 设置、菜单、选项面板
     type: heading
     level: 3
@@ -3587,7 +3587,7 @@ settings:
         value: translucent-setting-panel
   -
     id: titlebar-settings
-    title: 2.3.19 Titlebar style Setting
+    title: 2.3.19 Titlebar style Setting-Kiểu thanh tiêu đề
     title.zh: 2.3.19 标题栏样式
     type: heading
     level: 3
@@ -3677,7 +3677,7 @@ settings:
     default-dark: '#'
   -
     id: outline-settings
-    title: 2.3.20 Outline
+    title: 2.3.20 Outline-Đường viền thanh bên
     title.zh: 2.3.20 侧边栏大纲
     type: heading
     level: 3
@@ -3704,7 +3704,7 @@ settings:
     default: false
   -
     id: prompt-settings
-    title: 2.3.21 Prompt (ctrl p)
+    title: 2.3.21 Prompt (ctrl p)- Hộp nhắc nhở
     title.zh: 2.3.21 提示框 (ctrl p)
     type: heading
     level: 3
@@ -3746,7 +3746,7 @@ settings:
         value: pop-swirl
   -
     id: stack-settings
-    title: 2.3.22 Stack tabs
+    title: 2.3.22 Stack tabs- Ngăn xếp các Tab
     type: heading
     level: 3
     collapsed: true
@@ -3803,13 +3803,13 @@ settings:
         value: transparent-tab-style
   -
     id: mermaid-styles
-    title: 2.3.23 Mermaid
+    title: 2.3.23 Mỹ nhân ngư
     type: heading
     level: 3
     collapsed: true
   -
     id: resizable-mermaid
-    title: Resizable mermaid in Reading mode
+    title: Nàng tiên cá có thể thay đổi kích thước trong chế độ Đọc
     title.zh: 阅读模式可调整mermaid大小
     type: class-toggle
     default: false
@@ -3837,13 +3837,13 @@ settings:
     id: canvas-card-focus-mode
     title: canvas card focus mode
     title.zh: 开启Canvas聚焦模式
-    description: clicking on a card will highlight all cards and lines of the same color on the canvas When turned on
+    description: Nhấp vào một thẻ sẽ làm nổi bật tất cả các thẻ và dòng cùng màu trên canvas Khi được bật
     description.zh: 开启后 点击卡片会突出显示画布上所有相同颜色的卡片和线条
     type: class-toggle
     default: false
   -
     id: canvas-card-text-middle
-    title: canvas card text center align
+    title: căn chỉnh trung tâm văn bản thẻ canvas
     title.zh: 卡片文字默认居中
     type: class-toggle
     default: false
@@ -3873,7 +3873,7 @@ settings:
     id: canvas-workplace-background
     title: Toggle canvas workplace  background
     title.zh: 关闭Canvas工作区背景
-    description.zh: 如果开启了1.2.1工作页面背景，编辑画板也会带有背景，这里可以关闭画板背景
+    description.zh: Nếu nền trang làm việc 1.2.1 được bật thì bản vẽ chỉnh sửa cũng sẽ có nền, tại đây bạn có thể tắt nền bản vẽ
     type: class-toggle
     default: false
   -
@@ -3928,14 +3928,14 @@ settings:
     default-dark: '#05172e'
   -
     id: style-options-for-other-plugins
-    title: 3. For Plugins
-    title.zh: 3. 插件样式
+    title: 3. Phong cách plugin
+    title.zh: 3. Phong cách plugin
     type: heading
     level: 1
     collapsed: true
   -
     id: style-options-for-admonition-plugin-header
-    title: 3.1 Admonition&Callout Style
+    title: 3.1 Lời khuyên & Phong cách chú thích
     type: heading
     level: 2
     collapsed: true
@@ -4025,7 +4025,7 @@ settings:
         value: style-options-for-calendar-plugin-style-two
   -
     id: rainbow-checklist-folder
-    title: 3.3 Checklist Plugin
+    title: 3.3 Plugin danh sách kiểm tra
     type: heading
     level: 2
     collapsed: true
@@ -4100,13 +4100,13 @@ settings:
     description : 目前内置class：🔸circle_btn 圆形按钮🔸blank 透明按钮🔸grad_button渐变按钮🟣g_purple 紫色🔵g_blue蓝色🟢g_green 绿色💚g_lightgreen 浅绿🟡g_yellow黄色
   -
     id: style-options-for-buttons-plugin-heading
-    title: 3.6 Dataview
+    title: 3.6 Dataview-Chế độ xem dữ liệu
     type: heading
     level: 2
     collapsed: true
   -
     id: style-options-for-dataview-plugin-heading
-    title: 3.6.1 Dataview List
+    title: 3.6.1 Dataview List-Danh sách xem dữ liệu
     type: heading
     level: 3
     collapsed: true
@@ -4126,7 +4126,7 @@ settings:
         value: dataview-list-style-normal
   -
     id: style-options-for-dataview-table-plugin-heading
-    title: 3.6.2 Dataview Table
+    title: 3.6.2 Dataview Table-Bảng xem dữ liệu
     type: heading
     level: 3
     collapsed: true
@@ -4166,7 +4166,7 @@ settings:
     default: false
   -
     id: style-options-for-dialogue-plugin-heading
-    title: 3.7 Dialogue & Chatview
+    title: 3.7 Dialogue & Chatview - Đối thoại & Chế độ xem trò chuyện
     type: heading
     level: 2
     collapsed: true
@@ -4191,8 +4191,8 @@ settings:
         value: dialogue-style-chat
   -
     id: style-options-for-dialogue-plugin-heading
-    title: 3.9 Obsidian Memos
-    description: Adapted from @Quorafind's CSS snippet
+    title: 3.9 Obsidian Memos - Bản ghi nhớ Obsidian
+    description: Chuyển thể từ đoạn mã CSS của @Quorafind
     type: heading
     level: 2
     collapsed: true
@@ -4256,7 +4256,7 @@ settings:
         value: magenta-dark
   -
     id: style-options-for-backlinks-panel
-    title: 3.10 backlinks panel
+    title: 3.10 backlinks panel-bảng điều khiển liên kết ngược
     title.zh: 3.10 反链面板
     type: heading
     level: 2
@@ -4269,7 +4269,7 @@ settings:
     default: false
   -
     id: style-options-for-quiet-outline
-    title: 3.11 Quiet outline
+    title: 3.11 Quiet outline-Phác thảo yên tĩnh
     title.zh: 3.11 Quiet Outline
     type: heading
     level: 2
@@ -4282,9 +4282,9 @@ settings:
     default: true
   -
     id: build-in-style-folder
-    title: 4. Built-in Style Intro
+    title: 4. Phần giới thiệu kiểu tích hợp
     title.zh: 4. 内置样式介绍
-    description: There are some built-in CSS classes that should be manually declared in the YAML area. Details refer to the TIPS demo vault for Blue Topaz on Github.
+    description: Có một số lớp CSS tích hợp nên được khai báo thủ công trong khu vực YAML. Chi tiết tham khảo vault demo TIPS cho Blue Topaz trên Github.
     description.zh: 主题内置css类，手动在文档YAML区域进行cssclass声明，详细用法可以参考主题tips库，可以在主题QQ群（社区）获取。
     type: heading
     level: 1
@@ -4296,13 +4296,13 @@ settings:
     type: heading
     level: 2
     collapsed: false
-    description:  ❗cssclass：kanban❗ A kind of kanban-liked style for unordered lists. (Adapted from Spectrum theme by @Wiktoria Mielcarek)
-    description.zh:  ❗cssclass：kanban❗ 实现类似看板样式并排显示，只对无序列表生效。改自Spectrum theme by @Wiktoria Mielcarek
+    description:  ❗cssclass：kanban❗ Một loại phong cách giống như kanban cho các danh sách không có thứ tự. (Chuyển thể từ chủ đề Spectrum của @Wiktoria Mielcarek)
+    description.zh:  ❗cssclass：kanban❗ Thực hiện hiển thị cạnh nhau tương tự như kiểu kanban, chỉ hợp lệ cho các danh sách không có thứ tự. chuyển thể từ Spectrum theme by @Wiktoria Mielcarek
   -
     id: simple-p-kanban
     title: Simple pseudo-kanban
     title.zh: 单色伪看板
-    description: Remove colors of pseudo-kanban
+    description: Xóa màu của pseudo-kanban
     description.zh: 移除伪看板头部颜色
     type: class-toggle
     default: false
@@ -4320,7 +4320,7 @@ settings:
     default: false
   -
     id: blur-p-kanban-frosted-glass
-    title: Blur Radius (For Frosted Glass Style)
+    title: Blur Radius (For Frosted Glass Style)-Bán kính mờ (Đối với kiểu kính mờ)
     title.zh: 模糊程度 (毛玻璃效果)
     type: variable-number-slider
     default: 2
@@ -4417,7 +4417,7 @@ settings:
     level: 2
     collapsed: true
     description.zh:  ❗cssclass：code-wrap❗实现代码块中的代码行自动换行。
-    description:  ❗cssclass：code-wrap❗ Can be used to wrap code in code blocks for individual .md file
+    description:  ❗cssclass：code-wrap❗ Có thể được sử dụng để bọc mã trong các khối mã cho tệp .md riêng lẻ
   -
     id: built-in-style-inline-list
     title:  List in a horizontal row (inline list)
@@ -4426,7 +4426,7 @@ settings:
     level: 2
     collapsed: true
     description.zh:  ❗cssclass：inline-list❗列表项横向排布。
-    description:  ❗cssclass：inline-list❗ To make the list show in a horizontal row. Meanwhile, it makes the list show inline which can be used with inline images (like ![[xxx.jpg|inlineR]])
+    description:  ❗cssclass：inline-list❗ Để làm cho danh sách hiển thị theo hàng ngang. Trong khi đó, nó làm cho danh sách hiển thị nội tuyến có thể được sử dụng với hình ảnh nội tuyến(like ![[xxx.jpg|inlineR]])
   -
     id: built-in-style-img-grid
     title:  Image Grid
@@ -4435,7 +4435,7 @@ settings:
     level: 2
     collapsed: true
     description.zh:  ❗cssclass：img-grid❗实现图片类似网格一样自适应横排显示。也可以使用类似格式单独调整![[obsidian_image.png|inl|100]]  (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
-    description: ❗cssclass：img-grid❗ To make images arrange in a grid in the preview mode. (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
+    description: ❗cssclass：img-grid❗ Để làm cho hình ảnh sắp xếp theo dạng lưới ở chế độ xem trước. (adapted from https://github.com/iEchoxu/obsidian_orange/blob/main/.obsidian/snippets/image-grid.css)
   -
     id: built-in-style-matrix
     title: Eisenhower Matrix
@@ -4443,7 +4443,7 @@ settings:
     type: heading
     level: 2
     collapsed: true
-    description:  ❗cssclass：matrix❗ Usage https://forum.obsidian.md/t/theme-spectrum-version-1-0-0-and-resise-graphs-controls/12688/34 (Adapted from Spectrum theme by @Wiktoria Mielcarek)
+    description:  ❗cssclass：matrix❗ Usage https://forum.obsidian.md/t/theme-spectrum-version-1-0-0-and-resise-graphs-controls/12688/34 (Chuyển thể từ chủ đề Spectrum của @Wiktoria Mielcarek)
     description.zh:  ❗cssclass：matrix❗ 实现N*2表格四象限分布。表格内容使用![[XXX]]引入 见 https://forum.obsidian.md/t/theme-spectrum-version-1-0-0-and-resise-graphs-controls/12688/34。改自Spectrum theme by @Wiktoria Mielcarek
   -
     id: built-in-style-full-width
@@ -4452,7 +4452,7 @@ settings:
     type: heading
     level: 2
     collapsed: true
-    description:  ❗cssclass：fullwidth  wide-dataview wide-table wide-callout  wide-backlinks❗ (Adapted from https://github.com/efemkay @ Faiz Khuzaimah)
+    description:  ❗cssclass：toàn chiều rộng chế độ xem dữ liệu rộng bảng rộng chú thích rộng liên kết ngược rộng❗ (Adapted from https://github.com/efemkay @ Faiz Khuzaimah)
     description.zh:  ❗cssclass：fullwidth wide-dataview wide-table wide-callout  wide-backlinks❗ 分别实现整页，dv表格 md表格 callout  反链面板全宽度布局。改自https://github.com/efemkay @ Faiz Khuzaimah
   -
     id: topaz-community
@@ -4469,14 +4469,14 @@ id: Blue-Topaz-Codebox-Highlight
 settings:
   -
     id: code-header-theme
-    title: Codebox Highlighting Theme
+    title: Chủ đề làm nổi bật hộp mã
     title.zh: 代码框高亮语法设置
     type: heading
     level: 1
     collapsed: false
   -
     id: code-theme-selection
-    title: Codebox  highlighting  Theme
+    title: Chủ đề làm nổi bật hộp mã
     title.zh: 代码高亮主题
     type: class-select
     allowEmpty: false
@@ -4508,46 +4508,46 @@ settings:
         value: code-theme-custom
   -
     id: code-style-settings
-    title: Codebox style settings
+    title: Cài đặt kiểu hộp mã
     title.zh: 代码框样式设置
     type: heading
     level: 1
     collapsed: true
   -
     id: mute-code-indent-line
-    title: Mute Codebox indent Line
+    title: Mute Codebox indent Line-Xóa hướng dẫn thụt lề khối mã
     title.zh: 取消代码块缩进参考线
     type: class-toggle
     default: false
   -
     id: code-line-number
-    title: Code box showing line numbers (Editing Mode)
+    title: Hộp mã hiển thị số dòng (Editing Mode)
     title.zh: 代码显示行号 （编辑模式）
-    description: csslass declares code-line-number to be available for the current document
+    description: csslass khai báo mã dòng số có sẵn cho tài liệu hiện tại
     description.zh:  csslass 声明code-line-number 可对单篇note生效
     type: class-toggle
     default: false
   -
     id: whole-code-wrap
-    title: Code Wrap (Reading Mode)
+    title: Code Wrap(Gói) (Reading Mode)
     title.zh: 代码换行 （阅读模式）
     type: class-toggle
     default: true
   -
     id: remove-language-type
-    title: Toggle showing types of code languages
-    title.zh: 移除阅读模式下代码名称
+    title: Toggle showing types of code languages-Xóa tên mã ở chế độ đọc
+    title.zh: Xóa tên mã ở chế độ đọc
     type: class-toggle
     default: false
   -
     id: nowrap-edit-codebox
-    title: Non-wrap Codebox (Live Preview)
+    title: Non-wrap Codebox -Hộp mã không bọc(Live Preview)
     title.zh: 代码不换行 （Live Preview）
     type: class-toggle
     default: false
   -
     id: letter-space-code
-    title: Letter Spacing for Code
+    title: Letter Spacing for Code-Khoảng cách chữ cái của mã
     title.zh: 代码字间距
     type: variable-number-slider
     default: 0
@@ -4569,7 +4569,7 @@ settings:
         value: codebox-frosted-glass
   -
     id: blur-codebox-frosted-glass
-    title: Blur Radius (For Frosted Glass Style)
+    title: Blur Radius-Bán kính mờ (For Frosted Glass Style)
     title.zh: 模糊程度 (毛玻璃效果)
     type: variable-number-slider
     default: 2
@@ -4578,14 +4578,14 @@ settings:
     step: 1
   -
     id: code-background-colors
-    title: Codebox Highlighting background Colors
+    title: Codebox Highlighting background Colors-Làm nổi bật màu nền
     title.zh: 代码框高亮背景色设置
     type: heading
     level: 1
     collapsed: true
   -
     id: background-code
-    title: Codebox  Background Color
+    title: Codebox  Background Color-Màu nền
     title.zh: 代码块背景色
     type: variable-themed-color
     format: hex
@@ -4594,13 +4594,13 @@ settings:
     default-dark: '#292d3e'
   -
     id: muted-code-activeline-bg
-    title: Mute Codebox Active Line
+    title: Mute Codebox Active Line-Dòng hoạt động
     title.zh: 取消代码块当前行高亮
     type: class-toggle
     default: false
   -
     id: code-active-line-background-color
-    title: Codebox Active Line Background-Color
+    title: Codebox Active Line Background-Color(Màu nền đường hiện hoạt)
     title.zh: 代码块当前行背景色
     type: variable-themed-color
     format: hex
@@ -4609,7 +4609,7 @@ settings:
     default-dark: '#353a50'
   -
     id: code-selection-background
-    title: Codebox  Selection Line Background-Color
+    title: Codebox  Selection Line Background-Color(Màu nền của đường lựa chọn)
     title.zh: 代码块选中背景色
     type: variable-themed-color
     format: hex
@@ -4618,14 +4618,14 @@ settings:
     default-dark: '#353a50'
   -
     id: code-block-colors
-    title: Custom Codebox Syntax Highlighting  Colors
+    title: Màu làm nổi bật cú pháp hộp mã tùy chỉnh
     title.zh: 自定义语法高亮颜色
     type: heading
     level: 1
     collapsed: true
   -
     id: code-normal
-    title: Code Block normal Color
+    title: Code Block normal Color-màu bình thường
     description: Code Normal Font Color
     description.zh: 代码框普通字体颜色
     type: variable-themed-color
@@ -4635,7 +4635,7 @@ settings:
     default-dark: '#d4d4d4'
   -
     id: code-keyword
-    title: Code Block Keyword Color
+    title: Code Block Keyword Color-Màu Từ khóa
     type: variable-themed-color
     format: hex
     default-light: '#c792ea'
@@ -4727,7 +4727,7 @@ settings:
     default-dark: '#f07178'
   -
     id: code-punctuation
-    title: Code Block punctuation Color
+    title: Khối mã dấu chấm câu Màu
     description: code punctuation,bracket color
     type: variable-themed-color
     format: hex
@@ -4742,28 +4742,28 @@ settings:
     default-dark: '#676e95'
   -
     id: code-string
-    title: Code Block String Color
+    title: Code Block String Color-Màu chuỗi khối mã
     type: variable-themed-color
     format: hex
     default-light: '#c3e88d'
     default-dark: '#c3e88d'
   -
     id: code-attribute
-    title: Code Block Attribute Color
+    title: Code Block Attribute Color-Màu thuộc tính khối mã
     type: variable-themed-color
     format: hex
     default-light: '#c792ea'
     default-dark: '#c792ea'
   -
     id: code-function
-    title: Code Block function Color
+    title: Code Block function Color-Khối mã chức năng Màu sắc
     type: variable-themed-color
     format: hex
     default-light: '#c792ea'
     default-dark: '#c792ea'
   -
     id: code-important
-    title: Code Block important Color
+    title: Code Block important Color-Khối mã Màu sắc quan trọng
     type: variable-themed-color
     format: hex
     default-light: '#c792ea'
@@ -4814,14 +4814,14 @@ settings:
 
 body {
   --font-size-obsidian-titlebar: 13px;
-  --font-size-vault-name: 1em;/*左侧库名字体大小*/
-  --font-size-file-header-title: 0.9em;/*文件抬头标题，只在非Andy mode plugin时生效*/
-  --font-size-file-header-title-andy-plugin: 1em;/*文件抬头标题for Andy mode plugin*/
+  --font-size-vault-name: 1em;/*Kích thước phông chữ tên thư viện bên trái*/
+  --font-size-file-header-title: 0.9em;/*Tiêu đề tiêu đề tệp, chỉ hợp lệ khi không phải plugin chế độ Andy*/
+  --font-size-file-header-title-andy-plugin: 1em;/*Tiêu đề tệp cho plugin chế độ Andy*/
   --font-size-embed-title-size: 1.3em;
   --font-size-embed-file: 1.25em;
-  --font-size-folder-and-file: 0.9em;/*左侧边栏文件字体大小*/
-  --font-size-edit-normal: 1em;/*编辑正文字体大小*/
-  --font-size-preview-normal: 1em;/*预览正文字体大小*/
+  --font-size-folder-and-file: 0.9em;/*kích thước phông chữ tài liệu thanh bên trái*/
+  --font-size-edit-normal: 1em;/*Chỉnh sửa kích thước phông chữ nội dung*/
+  --font-size-preview-normal: 1em;/*Xem trước kích thước phông chữ nội dung*/
   --h1-size: 1.5625em;
   --h2-size: 1.4375em;
   --h3-size: 1.3125em;

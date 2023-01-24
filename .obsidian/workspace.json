@@ -4,32 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "9f895a5321f9a4c6",
+        "id": "ffac16c7c9f87c3e",
         "type": "tabs",
         "children": [
           {
-            "id": "0f152e0cb6da8038",
+            "id": "7d371d29283ad351",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hướng dẫn sử dụng/Python/Download Python.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "b386f5ced9064317",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5096130371094
+    "width": 275.5096130371094
   },
   "right": {
     "id": "94e884ce49ee42b5",
@@ -103,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           },
           {
@@ -164,7 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,17 +173,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b386f5ced9064317",
+  "active": "7d371d29283ad351",
   "lastOpenFiles": [
-    "Hướng dẫn sử dụng/Python/Python.md",
-    "Hướng dẫn sử dụng/Python/Download Python.md",
-    "Hướng dẫn sử dụng/Python/Install pyton with linux..md",
-    "How to use Linux.md",
-    "Hướng dẫn sử dụng/How to creat daily note.md",
-    "Hướng dẫn sử dụng/Hướng dẫn sử dụng.md",
-    "Hướng dẫn sử dụng/Python/Untitled.md",
+    "Cai dat Obsidian.md",
+    "Located/Moment/Moment.md",
+    "Linux-learn/Hướng dẫn sử dụng Linux/How to use Linux.md",
     "Linux-learn/Hướng dẫn sử dụng Linux/Code linux.md",
-    "TestTheme/Untitled.md",
-    "TestTheme/TestTheme.md"
+    "Hướng dẫn sử dụng/Python/install numpy.md",
+    "BRAT-log.md",
+    "Setting Obsidian.canvas",
+    "Options.md",
+    "filename^block.md",
+    "Image/Pasted image 20230124142708.png"
   ]
 }

@@ -1,4 +1,4 @@
-# Hướng dẫn sử dụng Linux
+# Hướng dẫn sử dụng Linux update
 
 ## Update & upgrade
 

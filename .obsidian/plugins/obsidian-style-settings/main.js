@@ -59,37 +59,37 @@ var chroma = createCommonjsModule(function (module, exports) {
  * Copyright (c) 2011-2019, Gregor Aisch
  * All rights reserved.
  *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions are met:
+ * Phân phối lại và sử dụng ở dạng nguồn và dạng nhị phân, có hoặc không có
+ * sửa đổi, được cho phép với điều kiện đáp ứng các điều kiện sau:
  *
- * 1. Redistributions of source code must retain the above copyright notice, this
- * list of conditions and the following disclaimer.
+ * 1. Việc phân phối lại mã nguồn phải giữ lại thông báo bản quyền ở trên, điều này
+ * danh sách các điều kiện và tuyên bố từ chối trách nhiệm sau đây.
  *
- * 2. Redistributions in binary form must reproduce the above copyright notice,
- * this list of conditions and the following disclaimer in the documentation
- * and/or other materials provided with the distribution.
+ * 2. Việc phân phối lại ở dạng nhị phân phải sao chép thông báo bản quyền ở trên,
+ * danh sách các điều kiện này và tuyên bố từ chối trách nhiệm sau đây trong tài liệu
+ * và/hoặc các tài liệu khác được cung cấp cùng với bản phân phối.
  *
- * 3. The name Gregor Aisch may not be used to endorse or promote products
- * derived from this software without specific prior written permission.
+ * 3. Tên Gregor Aisch không được sử dụng để xác nhận hoặc quảng bá sản phẩm
+ * bắt nguồn từ phần mềm này mà không có sự cho phép cụ thể trước bằng văn bản.
  *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
- * DISCLAIMED. IN NO EVENT SHALL GREGOR AISCH OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
- * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
- * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
- * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
- * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * PHẦN MỀM NÀY ĐƯỢC CUNG CẤP BỞI CÁC NGƯỜI GIỮ BẢN QUYỀN VÀ CÁC ĐÓNG GÓP "NGUYÊN TRẠNG"
+ * VÀ BẤT KỲ BẢO ĐẢM NÀO RÕ RÀNG HAY NGỤ Ý, BAO GỒM NHƯNG KHÔNG GIỚI HẠN Ở,
+ * BẢO ĐẢM NGỤ Ý VỀ KHẢ NĂNG BÁN ĐƯỢC VÀ SỰ PHÙ HỢP CHO MỘT MỤC ĐÍCH CỤ THỂ LÀ
+ * KHUYẾN CÁO. TRONG MỌI TRƯỜNG HỢP GREGOR AISCH HOẶC NGƯỜI ĐÓNG GÓP KHÔNG CHỊU TRÁCH NHIỆM PHÁP LÝ VỀ BẤT KỲ TRỰC TIẾP NÀO,
+ * CÁC THIỆT HẠI GIÁN TIẾP, NGẪU NHIÊN, ĐẶC BIỆT, ĐIỂN HÌNH HOẶC LÀ HẬU QUẢ (BAO GỒM,
+ * NHƯNG KHÔNG GIỚI HẠN, MUA SẮM HÀNG HÓA HOẶC DỊCH VỤ THAY THẾ; MẤT KHẢ NĂNG,
+ * DỮ LIỆU, HOẶC LỢI NHUẬN; HOẶC GIÁN ĐOẠN KINH DOANH) TUY NHIÊN NGUYÊN NHÂN VÀ TRÊN BẤT KỲ LÝ THUYẾT NÀO
+ * TRÁCH NHIỆM PHÁP LÝ, DÙ TRONG HỢP ĐỒNG, TRÁCH NHIỆM PHÁP LÝ NGHIÊM NGẶT HAY NGOẠI TỆ (BAO GỒM
+ * SƠ CỨU HAY CÁCH NÀO KHÁC) PHÁT SINH TRONG BẤT KỲ CÁCH NÀO NGOÀI VIỆC SỬ DỤNG PHẦN MỀM NÀY,
+ * NGAY CẢ KHI ĐƯỢC TƯ VẤN VỀ KHẢ NĂNG THIỆT HẠI ĐÓ.
  *
- * -------------------------------------------------------
+ * ------------------------------------------------- ------
  *
- * chroma.js includes colors from colorbrewer2.org, which are released under
- * the following license:
+ * chroma.js bao gồm các màu từ colorbrewer2.org, được phát hành dưới
+ * giấy phép sau:
  *
- * Copyright (c) 2002 Cynthia Brewer, Mark Harrower,
- * and The Pennsylvania State University.
+ * Bản quyền (c) 2002 Cynthia Brewer, Mark Harrower,
+ * và Đại học Bang Pennsylvania.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -134,12 +134,12 @@ var chroma = createCommonjsModule(function (module, exports) {
         return rgb;
     };
 
-    // ported from jQuery's $.type
+    // được chuyển từ $.type của jQuery
     var classToType = {};
     for (var i = 0, list = ['Boolean', 'Number', 'String', 'Function', 'Array', 'Date', 'RegExp', 'Undefined', 'Null']; i < list.length; i += 1) {
         var name = list[i];
 
-        classToType[("[object " + name + "]")] = name.toLowerCase();
+        classToType[("[object " + name + "]")] == name.toLowerCase();
     }
     var type = function(obj) {
         return classToType[Object.prototype.toString.call(obj)] || "object";
@@ -148,17 +148,17 @@ var chroma = createCommonjsModule(function (module, exports) {
     var unpack = function (args, keyOrder) {
         if ( keyOrder === void 0 ) keyOrder=null;
 
-    	// if called with more than 3 arguments, we return the arguments
+    	// nếu được gọi với hơn 3 đối số, chúng tôi trả về các đối số
         if (args.length >= 3) { return Array.prototype.slice.call(args); }
-        // with less than 3 args we check if first arg is object
-        // and use the keyOrder string to extract and sort properties
+        // với ít hơn 3 đối số, chúng tôi kiểm tra xem đối số đầu tiên có phải là đối tượng không
+        // và sử dụng chuỗi keyOrder để trích xuất và sắp xếp các thuộc tính
     	if (type(args[0]) == 'object' && keyOrder) {
     		return keyOrder.split('')
     			.filter(function (k) { return args[0][k] !== undefined; })
     			.map(function (k) { return args[0][k]; });
     	}
-    	// otherwise we just return the first argument
-    	// (which we suppose is an array of args)
+    	// nếu không, chúng tôi chỉ trả về đối số đầu tiên
+    // (mà chúng tôi cho là một mảng các đối số)
         return args[0];
     };
 
